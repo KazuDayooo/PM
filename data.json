@@ -1,0 +1,378 @@
+{
+  "foods": [
+    {
+      "id": "1",
+      "name": "Rendang",
+      "description": "Rendang adalah hidangan daging yang berasal dari Minangkabau, Sumatera Barat. Masakan ini dikenal dengan cita rasa yang kaya rempah dan proses memasak yang memakan waktu lama hingga kuah santan mengering dan meresap sempurna ke dalam daging.",
+      "region": "Sumatera Barat",
+      "origin": "Sumatera Barat",
+      "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400",
+      "category": "Makanan Utama",
+      "difficulty": "Sulit",
+      "cookingTime": "4-5 jam",
+      "servings": 6,
+      "ingredients": [
+        "1 kg daging sapi",
+        "400 ml santan kental",
+        "200 ml santan cair",
+        "4 lembar daun jeruk",
+        "2 batang serai",
+        "3 lembar daun kunyit",
+        "Bumbu halus: cabai merah, bawang merah, bawang putih, jahe, kunyit, kemiri"
+      ],
+      "preparation": [
+        "Haluskan semua bumbu",
+        "Tumis bumbu halus hingga harum",
+        "Masukkan daging, aduk rata",
+        "Tuang santan, masak hingga mendidih",
+        "Kecilkan api, masak sambil diaduk hingga kuah mengental",
+        "Masak terus hingga kuah habis dan daging berwarna coklat kehitaman"
+      ],
+      "nutrition": {
+        "calories": 468,
+        "protein": "26g",
+        "carbs": "8g",
+        "fat": "38g"
+      },
+      "funFacts": [
+        "Rendang dinobatkan sebagai makanan terlezat di dunia oleh CNN pada tahun 2011",
+        "Rendang bisa tahan hingga berminggu-minggu tanpa kulkas",
+        "Setiap keluarga Minang memiliki resep rendang turun temurun yang berbeda"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Nasi Gudeg",
+      "description": "Gudeg adalah makanan khas Yogyakarta yang terbuat dari nangka muda yang dimasak dengan santan dan gula merah. Hidangan ini memiliki rasa manis khas dan biasanya disajikan dengan nasi, ayam, telur, dan sambal.",
+      "region": "Yogyakarta",
+      "origin": "Yogyakarta",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtMcTBIt-BHKn7NhOyeE5fOTxOUNzIU6-dCw&s",
+      "category": "Makanan Utama",
+      "difficulty": "Sedang",
+      "cookingTime": "3-4 jam",
+      "servings": 8,
+      "ingredients": [
+        "1 kg nangka muda",
+        "500 ml santan",
+        "200g gula merah",
+        "3 lembar daun salam",
+        "2 lembar daun jeruk",
+        "Bumbu halus: bawang merah, bawang putih, kemiri, ketumbar"
+      ],
+      "preparation": [
+        "Potong nangka muda sesuai selera",
+        "Haluskan bumbu",
+        "Tumis bumbu hingga harum",
+        "Masukkan nangka dan santan",
+        "Tambahkan gula merah dan daun-daunan",
+        "Masak dengan api kecil hingga meresap, sekitar 3-4 jam"
+      ],
+      "nutrition": {
+        "calories": 185,
+        "protein": "3g",
+        "carbs": "45g",
+        "fat": "2g"
+      },
+      "funFacts": [
+        "Gudeg berasal dari kata 'hangudeg' yang berarti 'mengolah'",
+        "Warna coklat gudeg berasal dari gula merah dan daun jati",
+        "Gudeg Yogya berbeda dengan gudeg Solo dalam hal tingkat kemanisan"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Sate Ayam",
+      "description": "Sate ayam adalah makanan yang terdiri dari potongan daging ayam yang ditusuk dengan tusukan bambu dan dibakar di atas arang. Disajikan dengan bumbu kacang yang gurih dan segar.",
+      "region": "Jawa",
+      "origin": "Jawa",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400",
+      "category": "Makanan Utama",
+      "difficulty": "Mudah",
+      "cookingTime": "1 jam",
+      "servings": 4,
+      "ingredients": [
+        "500g daging ayam fillet",
+        "Tusukan sate",
+        "Bumbu marinasi: kecap manis, garam, lada",
+        "Bumbu kacang: kacang tanah, cabai, gula merah, asam jawa, kecap manis"
+      ],
+      "preparation": [
+        "Potong daging ayam sesuai ukuran",
+        "Marinasi daging dengan bumbu selama 30 menit",
+        "Tusuk daging dengan tusukan sate",
+        "Bakar di atas arang sambil diolesi bumbu",
+        "Sajikan dengan bumbu kacang dan lontong"
+      ],
+      "nutrition": {
+        "calories": 320,
+        "protein": "35g",
+        "carbs": "12g",
+        "fat": "15g"
+      },
+      "funFacts": [
+        "Sate berasal dari kata Tamil 'catai' yang berarti daging",
+        "Ada lebih dari 200 variasi sate di Indonesia",
+        "Sate Madura adalah yang paling terkenal di seluruh Indonesia"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Gado-Gado",
+      "description": "Gado-gado adalah salad Indonesia yang terdiri dari sayuran rebus dan mentah, tahu, tempe, telur rebus, dan kerupuk yang disiram dengan bumbu kacang yang gurih dan sedikit pedas.",
+      "region": "Jakarta",
+      "origin": "Jakarta",
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=400",
+      "category": "Salad",
+      "difficulty": "Mudah",
+      "cookingTime": "45 menit",
+      "servings": 4,
+      "ingredients": [
+        "Kangkung, bayam, tauge",
+        "Kacang panjang, kol",
+        "Tahu, tempe",
+        "Telur rebus",
+        "Kerupuk",
+        "Bumbu kacang: kacang tanah, cabai, gula merah, asam jawa"
+      ],
+      "preparation": [
+        "Rebus sayuran satu per satu hingga matang",
+        "Goreng tahu dan tempe",
+        "Rebus telur hingga matang",
+        "Haluskan bumbu kacang",
+        "Tata semua bahan di piring",
+        "Siram dengan bumbu kacang"
+      ],
+      "nutrition": {
+        "calories": 287,
+        "protein": "12g",
+        "carbs": "18g",
+        "fat": "20g"
+      },
+      "funFacts": [
+        "Gado-gado artinya 'campur-campur' dalam bahasa Indonesia",
+        "Setiap daerah memiliki variasi gado-gado dengan sayuran lokal",
+        "Bumbu kacang gado-gado mirip dengan saus satay"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Soto Ayam",
+      "description": "Soto ayam adalah sup ayam bening khas Indonesia dengan kuah kuning yang kaya rempah. Biasanya disajikan dengan nasi, tauge, telur rebus, dan kerupuk.",
+      "region": "Jawa Timur",
+      "origin": "Jawa Timur",
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400",
+      "category": "Sup",
+      "difficulty": "Sedang",
+      "cookingTime": "2 jam",
+      "servings": 6,
+      "ingredients": [
+        "1 ekor ayam",
+        "Bumbu halus: bawang merah, bawang putih, kunyit, jahe",
+        "Daun salam, serai, daun jeruk",
+        "Tauge, telur rebus",
+        "Kerupuk, sambal"
+      ],
+      "preparation": [
+        "Rebus ayam hingga empuk, ambil kaldu",
+        "Suwir-suwir daging ayam",
+        "Tumis bumbu halus hingga harum",
+        "Masukkan kaldu dan bumbu tumis",
+        "Didihkan dan bumbui dengan garam",
+        "Sajikan dengan pelengkap"
+      ],
+      "nutrition": {
+        "calories": 245,
+        "protein": "22g",
+        "carbs": "8g",
+        "fat": "14g"
+      },
+      "funFacts": [
+        "Setiap daerah memiliki varian soto dengan ciri khas masing-masing",
+        "Soto Lamongan menggunakan koya (bumbu tabur kacang)",
+        "Kunyit memberikan warna kuning khas pada kuah soto"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Pempek",
+      "description": "Pempek adalah makanan khas Palembang yang terbuat dari ikan dan sagu. Disajikan dengan kuah cuko yang asam, pedas, dan manis.",
+      "region": "Palembang",
+      "origin": "Palembang",
+      "image": "https://lingkar.news/wp-content/uploads/2023/03/Aneka-Resep-Pempek-Makanan-Tradisional-Khas-Palembang.jpg",
+      "category": "Makanan Ringan",
+      "difficulty": "Sulit",
+      "cookingTime": "3 jam",
+      "servings": 8,
+      "ingredients": [
+        "500g ikan tenggiri",
+        "250g tepung sagu",
+        "Telur (untuk pempek kapal selam)",
+        "Bumbu cuko: gula merah, asam jawa, cabai, bawang putih"
+      ],
+      "preparation": [
+        "Haluskan daging ikan hingga lembut",
+        "Campur dengan tepung sagu dan air",
+        "Bentuk sesuai jenis pempek",
+        "Rebus dalam air mendidih hingga mengapung",
+        "Goreng sebentar hingga kecoklatan",
+        "Sajikan dengan cuko"
+      ],
+      "nutrition": {
+        "calories": 198,
+        "protein": "15g",
+        "carbs": "25g",
+        "fat": "4g"
+      },
+      "funFacts": [
+        "Pempek konon dibawa oleh imigran Tionghoa ke Palembang",
+        "Ada lebih dari 10 jenis pempek yang berbeda",
+        "Cuko adalah saus khas yang tidak bisa dipisahkan dari pempek"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Bakso",
+      "description": "Bakso adalah bola daging yang terbuat dari daging sapi giling dan tepung tapioka. Disajikan dalam kuah kaldu yang hangat dengan mie dan sayuran.",
+      "region": "Malang",
+      "origin": "Malang",
+      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400",
+      "category": "Makanan Utama",
+      "difficulty": "Sedang",
+      "cookingTime": "2 jam",
+      "servings": 6,
+      "ingredients": [
+        "500g daging sapi giling",
+        "100g tepung tapioka",
+        "Garam, lada, bawang putih",
+        "Kaldu tulang sapi",
+        "Mie, tahu, sayuran"
+      ],
+      "preparation": [
+        "Campur daging giling dengan tepung dan bumbu",
+        "Bentuk bulat-bulat kecil",
+        "Rebus dalam air mendidih hingga mengapung",
+        "Siapkan kuah kaldu yang gurih",
+        "Sajikan bakso dengan kuah, mie, dan pelengkap"
+      ],
+      "nutrition": {
+        "calories": 312,
+        "protein": "28g",
+        "carbs": "15g",
+        "fat": "16g"
+      },
+      "funFacts": [
+        "Bakso berasal dari kuliner Tionghoa yang diadaptasi di Indonesia",
+        "Bakso Malang terkenal dengan ukurannya yang besar",
+        "Ada bakso urat, bakso ikan, dan berbagai varian lainnya"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Nasi Padang",
+      "description": "Nasi Padang adalah hidangan nasi putih dengan berbagai macam lauk pauk khas Minangkabau. Terkenal dengan rasa pedas dan santan yang kaya.",
+      "region": "Sumatera Barat",
+      "origin": "Sumatera Barat",
+      "image": "https://awsimages.detik.net.id/community/media/visual/2020/07/06/nasi-padang.jpeg?w=1200",
+      "category": "Makanan Utama",
+      "difficulty": "Sulit",
+      "cookingTime": "4 jam",
+      "servings": 10,
+      "ingredients": [
+        "Nasi putih",
+        "Rendang daging",
+        "Ayam gulai",
+        "Sambal balado",
+        "Sayur nangka",
+        "Perkedel kentang"
+      ],
+      "preparation": [
+        "Masak nasi putih hingga pulen",
+        "Siapkan berbagai lauk khas Padang",
+        "Masak dengan bumbu rempah yang kaya",
+        "Sajikan nasi dengan berbagai pilihan lauk",
+        "Tambahkan sambal sesuai selera"
+      ],
+      "nutrition": {
+        "calories": 650,
+        "protein": "25g",
+        "carbs": "75g",
+        "fat": "28g"
+      },
+      "funFacts": [
+        "Sistem hidang Padang unik dengan semua lauk ditaruh di meja",
+        "Yang dimakan saja yang dibayar",
+        "Rumah makan Padang tersebar di seluruh Indonesia"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Makanan Utama",
+      "description": "Hidangan pokok yang biasanya dimakan dengan nasi",
+      "icon": "food"
+    },
+    {
+      "id": "2",
+      "name": "Makanan Ringan",
+      "description": "Camilan atau makanan selingan",
+      "icon": "food-variant"
+    },
+    {
+      "id": "3",
+      "name": "Sup",
+      "description": "Hidangan berkuah yang hangat dan menyegarkan",
+      "icon": "bowl-mix"
+    },
+    {
+      "id": "4",
+      "name": "Salad",
+      "description": "Hidangan sayuran segar dengan dressing",
+      "icon": "leaf"
+    }
+  ],
+  "regions": [
+    {
+      "id": "1",
+      "name": "Jawa",
+      "province": "Jawa Tengah, Jawa Timur, Jawa Barat",
+      "specialties": ["Gudeg", "Sate Ayam", "Soto Ayam"]
+    },
+    {
+      "id": "2",
+      "name": "Sumatera Barat",
+      "province": "Sumatera Barat",
+      "specialties": ["Rendang", "Nasi Padang"]
+    },
+    {
+      "id": "3",
+      "name": "Jakarta",
+      "province": "DKI Jakarta",
+      "specialties": ["Gado-Gado"]
+    },
+    {
+      "id": "4",
+      "name": "Sumatera Selatan",
+      "province": "Sumatera Selatan",
+      "specialties": ["Pempek"]
+    }
+  ],
+  "difficulty_levels": [
+    {
+      "level": "Mudah",
+      "description": "Dapat dibuat dalam waktu singkat dengan teknik sederhana",
+      "color": "#4CAF50"
+    },
+    {
+      "level": "Sedang",
+      "description": "Memerlukan waktu dan teknik memasak yang lebih kompleks",
+      "color": "#FF9800"
+    },
+    {
+      "level": "Sulit",
+      "description": "Memerlukan waktu lama dan teknik memasak yang ahli",
+      "color": "#F44336"
+    }
+  ]
+}
+            
