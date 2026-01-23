@@ -12,12 +12,12 @@ export default function ToDoList() {
   const [task, setTask] = useState<string>("");
   const [todos, setTodos] = useState<Todo[]>([]);
 
-  // ================= SIMPAN TODO =================
+  //---------------SIMPAN--------------------------
   const storeTodo = async (data: Todo[]) => {
     await AsyncStorage.setItem("todos", JSON.stringify(data));
   };
 
-  // ================= AMBIL TODO =================
+  // -------------------Ambil TODO (kegiatan)------------------------------------
   const getTodo = async () => {
     const storedTodo = await AsyncStorage.getItem("todos");
     if (storedTodo) {
@@ -25,7 +25,7 @@ export default function ToDoList() {
     }
   };
 
-  // ================= TAMBAH TODO =================
+  //-------------------------TAMBAH KEGIATAN---------------------------------
   const addTodo = () => {
     if (task.trim() === "") return;
 
@@ -40,7 +40,7 @@ export default function ToDoList() {
     setTask("");
   };
 
-  // ================= HAPUS TODO =================
+  //-----------------------------HAPUS KEGIATAN------------------------------
   const removeTodo = async (id: number) => {
     const filtered = todos.filter((item) => item.id !== id);
     setTodos(filtered);
@@ -51,6 +51,7 @@ export default function ToDoList() {
     getTodo();
   }, []);
 
+  //----------------------------TAMPILAN------------------------------------
   return (
     <SafeAreaView style={{ padding: 20 }}>
       <TextInput
