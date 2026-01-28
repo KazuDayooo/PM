@@ -10,22 +10,22 @@ type Todo = {
 
 export default function ToDoList() {
   const [task, setTask] = useState<string>("");
-  const [todos, setTodos] = useState<Todo[]>([]);
+  const [todoo, setTodoo] = useState<Todo[]>([]);
 
-  //---------------SIMPAN--------------------------
+  // ---------------- Simpan To Do ------------------------
   const storeTodo = async (data: Todo[]) => {
-    await AsyncStorage.setItem("todos", JSON.stringify(data));
+    await AsyncStorage.setItem("todoo", JSON.stringify(data));
   };
 
-  // -------------------Ambil TODO (kegiatan)------------------------------------
+  // ---------------- Ambil To do ----------------------------
   const getTodo = async () => {
-    const storedTodo = await AsyncStorage.getItem("todos");
+    const storedTodo = await AsyncStorage.getItem("todoo");
     if (storedTodo) {
-      setTodos(JSON.parse(storedTodo));
+      setTodoo(JSON.parse(storedTodo));
     }
   };
 
-  //-------------------------TAMBAH KEGIATAN---------------------------------
+  // ----------------- Tambah To Do -------------------------
   const addTodo = () => {
     if (task.trim() === "") return;
 
@@ -34,16 +34,16 @@ export default function ToDoList() {
       title: task,
     };
 
-    const updatedTodos = [...todos, newTodo];
-    setTodos(updatedTodos);
-    storeTodo(updatedTodos);
+    const updatedTodoo = [...todoo, newTodo];
+    setTodoo(updatedTodoo);
+    storeTodo(updatedTodoo);
     setTask("");
   };
 
-  //-----------------------------HAPUS KEGIATAN------------------------------
+  // ----------------- HAPUS TODO --------------------------
   const removeTodo = async (id: number) => {
-    const filtered = todos.filter((item) => item.id !== id);
-    setTodos(filtered);
+    const filtered = todoo.filter((item) => item.id !== id);
+    setTodoo(filtered);
     storeTodo(filtered);
   };
 
@@ -51,7 +51,6 @@ export default function ToDoList() {
     getTodo();
   }, []);
 
-  //----------------------------TAMPILAN------------------------------------
   return (
     <SafeAreaView style={{ padding: 20 }}>
       <TextInput
@@ -69,7 +68,7 @@ export default function ToDoList() {
       <Button title="Tambah" onPress={addTodo} />
 
       <FlatList
-        data={todos}
+        data={todoo}
         keyExtractor={(item) => item.id.toString()}
         renderItem={({ item }) => (
           <View
